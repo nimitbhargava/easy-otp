@@ -25,7 +25,7 @@
 
 ## 🚀 Quick Start
 
-\### Install
+### Install
 
 ```sh
 npm i easy-otp
@@ -33,7 +33,7 @@ npm i easy-otp
 
 > Requires **Node v16 LTS** or later.
 
-\### Generate a code (API)
+### Generate a code (API)
 
 ```ts
 import { generateOtp } from 'easy-otp';
@@ -41,14 +41,14 @@ import { generateOtp } from 'easy-otp';
 const code = generateOtp();  // "472638"
 ```
 
-\#### With options
+#### With options
 
 ```ts
 // 8‑digit code, allow 0 & 1
 const code = generateOtp({ length: 8, avoidAmbiguous: false });
 ```
 
-\### Generate a code (CLI)
+### Generate a code (CLI)
 
 ```sh
 npx easy-otp          # 6‑digit default
